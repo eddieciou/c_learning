@@ -10,6 +10,22 @@ float       // 單精度浮點數
 double      // 雙精度浮點數
 ```
 
+### 各資料型態所佔記憶體大小(Mac環境)
+```c++
+int main(){
+    printf("%d\n", sizeof(char));       // 1
+    printf("%d\n", sizeof(short));      // 2
+    printf("%d\n", sizeof(int));        // 4
+    printf("%d\n", sizeof(long));       // 8
+    printf("%d\n", sizeof(long long));  // 8
+    printf("%d\n", sizeof(float));      // 4
+    printf("%d\n", sizeof(double));     // 8
+    return 0;
+}
+```
+   
+
+
 ### 單精度浮點數與雙精度浮點數差別
 
 |        |      總占位      | 符號位(S) | 指數位(E) | 有效數位(F) |
